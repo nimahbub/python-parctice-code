@@ -1,0 +1,8 @@
+my_file=open("anothertext.txt","r")
+print(my_file.read(5))
+print(my_file.read())
+position=my_file.tell()
+print(position)
+my_file.seek(0,0)
+print(my_file.read())
+my_file.close()
